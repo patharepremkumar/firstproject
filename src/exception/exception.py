@@ -1,6 +1,6 @@
 import sys
 
-class customexceprion(Exception):
+class customexception(Exception):
 
     def __init__(self, error_message, error_details:sys):
         self.error_message = error_message
@@ -18,4 +18,4 @@ if __name__ =="__main__":
     try:
         a = 1/0
     except Exception as e:
-        raise customexceprion(e,sys)
+        raise customexception(e,sys)
