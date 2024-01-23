@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/MLOPS/firstproject/mlruns/0/ba37c1b859a44a32b85afbfd88f585d2/artifacts
+end_time: 1705985694384
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ba37c1b859a44a32b85afbfd88f585d2
+run_name: righteous-conch-773
+run_uuid: ba37c1b859a44a32b85afbfd88f585d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705985672331
+status: 3
+tags: []
+user_id: admin

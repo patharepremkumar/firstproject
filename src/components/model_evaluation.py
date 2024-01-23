@@ -43,7 +43,7 @@ class ModelEvaluation:
                 mlflow.log_metric("rmse",rmse)
                 mlflow.log_metric("mae",mae)
                 mlflow.log_metric("r2",r2)
-
+                
                 # Model registry does not work with file store
                 if tracking_url_type_store !="file":
 
@@ -55,11 +55,7 @@ class ModelEvaluation:
 
                 else:
                     mlflow.sklearn.log_model(model, "model")
-
-
-            
-            
-            
+      
 
 
 
